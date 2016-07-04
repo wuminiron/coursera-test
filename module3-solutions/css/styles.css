@@ -1,0 +1,45 @@
+#nav-bar{
+	height: auto;
+	background-color: #f6b319;
+	width: 100%;
+/*	margin-left: 0px;
+	margin-right: -15px;*/
+}
+
+.navbar-toggle{
+	position: relative;
+	margin-right: 0px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right:25px;
+	border: 1px solid black;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background-color: #087F76;
+}
+
+.text-center{
+	/*font-family: 'Oxygen', sans-serif;*/
+	font-size: 2em;
+}
+
+#home-tiles{
+	background-color: #087F76;
+	height: 1000px;
+}
+
+#home-tiles h3{
+   text-align: center;
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 767px){
+   .navbar-brand{
+   	height: 85px;
+   }   
+}
